@@ -7,13 +7,6 @@ body {
     font-size: 30px;
     text-align: center;
 }
-h1 {
-    text-align:left;
-    font-size: 60px;
-    font-weight: normal;
-    margin: 0;
-    line-height: 1;
-}
 h2 {
     text-align:left;
     font-size: 50px;
@@ -41,13 +34,15 @@ header ul li{
 }
 header ul a {
     color: black;
-    background-color: #f3f2dd;
+    background-color: #5aa8d9;
     font-size: 30px;
-    margin:1;
+    margin:2;
     border-radius: 10px; 
     text-decoration: none;
 }
-
+#base_introduction{
+     background-color: #f2cb02;
+}
 /*block setting*/
 
 

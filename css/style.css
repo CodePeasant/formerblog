@@ -34,12 +34,29 @@ header ul li{
 header ul a {
     color: black;
     font-size: 30px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none
 }
-#base_introduction{
-    padding:5px;
-    background-color: #f2cb02;
-}
+
 /*block setting*/
-
-
+.scroll_block{
+    padding:5px;
+}
+.about_me{
+    background-color: #5aa8d9;/*blue*/
+}
+.some_picuture{
+    background-color: #f86531;/*pink*/
+}
+.resume{
+    background-color: #f2cb02;/*yellow*/
+}
+.life{
+    background-color: #80a67f;/*green*/
+}
+.work{
+    background-color: #bf9c5a;/*grey*/
+}
 

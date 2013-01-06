@@ -4,7 +4,7 @@ html {
 }
 body {
     font-family: Georgia, Times New Roman, Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 ul{
@@ -18,27 +18,30 @@ h1 {
 .clear{
     clear:both;
 }
-/*Header*/
-header a{
-    text-align:left;
+header{
     background-color: white;
-    padding:0px,auto,0px,5px;
 }
-/*block setting*/
+footer{
+    background: black;
+    color:white;
+}
 .scroll_block{
     margin:0;
     padding:10px;
     text-align:center;
 }
+/*block setting*/
 .about_me{
     background-color: #5aa8d9;/*blue*/
 }
 .about_me h1{
     color: #06406C
 }
+
 .life{
     background-color: #80a67f;/*green*/
 }
+
 .work{
     background-color: #bf9c5a;/*grey*/
 }

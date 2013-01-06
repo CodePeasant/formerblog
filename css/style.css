@@ -4,20 +4,14 @@ html {
 }
 body {
     font-family: Georgia, Times New Roman, Times, serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
 }
-h2 {
+h1 {
     text-align:left;
     font-size: 50px;
     font-weight: normal;
     margin: 0;
-}
-.scrollblock{
-    position: relative;
-    margin: 0;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 .clear{
     clear:both;
@@ -25,6 +19,7 @@ h2 {
 /*Header*/
 header{
     background-color: white;
+    padding:0px,auto,0px,5px;
 }
 header nav{
     line-height: 200%;
@@ -34,14 +29,15 @@ header ul{
 }
 header ul li{
     float: left;
+    margin:2 px;
 }
 header ul a {
     color: black;
     font-size: 30px;
-    margin:2 px;
 }
 #base_introduction{
-     background-color: #f2cb02;
+    padding:5px;
+    background-color: #f2cb02;
 }
 /*block setting*/
 

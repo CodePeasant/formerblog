@@ -29,7 +29,6 @@ header ul{
 }
 header ul li{
     float: left;
-    margin:2 px;
 }
 header ul a {
     color: black;

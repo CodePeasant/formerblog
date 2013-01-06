@@ -7,6 +7,9 @@ body {
     font-size: 20px;
     text-align: center;
 }
+ul{
+    list-style-type: none;
+}
 h1 {
     font-size: 60px;
     font-weight: normal;
@@ -16,16 +19,15 @@ h1 {
     clear:both;
 }
 /*Header*/
-header{
+header a{
+    text-align:left;
     background-color: white;
     padding:0px,auto,0px,5px;
 }
-header img{
-    text-align:left;
-}
 /*block setting*/
 .scroll_block{
-    padding:5px;
+    margin:0;
+    padding:10px;
 }
 .about_me{
     background-color: #5aa8d9;/*blue*/

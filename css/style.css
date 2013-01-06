@@ -40,14 +40,11 @@ header ul li{
     float: left;
 }
 header ul a {
-    color: white;
+    color: black;
+    background-color: #f3f2dd;
     font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    background-color: #06406C;
-    margin:0;
-    padding: 10px 10px;
-    border-radius: 10px;
+    margin:1;
+    border-radius: 10px; 
     text-decoration: none;
 }
 

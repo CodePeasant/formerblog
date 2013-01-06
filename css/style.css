@@ -5,11 +5,10 @@ html {
 body {
     font-family: Georgia, Times New Roman, Times, serif;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 h1 {
-    text-align:left;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: normal;
     margin: 0;
 }
@@ -21,24 +20,6 @@ header{
     background-color: white;
     padding:0px,auto,0px,5px;
 }
-header nav{
-    line-height: 200%;
-}
-header ul{
-    margin:0;
-}
-header ul li{
-    float: left;
-}
-header ul a {
-    color: black;
-    font-size: 30px;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 10px;
-    text-decoration: none
-}
-
 /*block setting*/
 .scroll_block{
     padding:5px;

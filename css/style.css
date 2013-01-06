@@ -31,10 +31,9 @@ h2 {
 }
 /*Header*/
 header{
-    background-color: #348FD4;
+    background-color: white;
 }
 header nav{
-    margin: 40px auto;
     line-height: 200%;
 }
 header ul li{
@@ -42,11 +41,12 @@ header ul li{
 }
 header ul a {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
     font-style: normal;
     background-color: #06406C;
-    padding: 10px 15px;
+    margin:0;
+    padding: 10px 10px;
     border-radius: 10px;
     text-decoration: none;
 }

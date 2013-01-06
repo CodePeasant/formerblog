@@ -1,34 +1,28 @@
 /*Base*/
 html {
-font-size: 100%;
+    font-size: 100%;
 }
-
 body {
-font-family: Georgia, Times New Roman, Times, serif;
-font-size: 30px;
-text-align: center;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 30px;
+    text-align: center;
 }
-
-body, button, input, select, textarea {
-font-family: sans-serif;
-}
-
 h1 {
-    font-size: 80px;
+    text-align:left;
+    font-size: 70px;
     font-weight: normal;
+    color:#06406C;
     margin: 0;
-    font-family: 'Chelsea Market', Georgia, serif;
+    font-family: Georgia, serif;
     line-height: 1;
 }
-
 h2 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: normal;
     margin: 0;
     font-family: 'Chelsea Market', Georgia, serif;
     text-transform: lowercase;
 }
-
 .scrollblock{
     position: relative;
     margin: 0;
@@ -40,13 +34,13 @@ header{
     background-color: #348FD4;
     padding-bottom: 50px;
 }
-
 header nav{
     margin: 40px auto;
-    color: black;
     line-height: 200%;
 }
-
+header ul li{
+    float: left;
+}
 header ul a {
     color: white;
     font-size: 40px;

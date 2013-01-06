@@ -5,7 +5,7 @@ html {
 body {
     font-family: Georgia, Times New Roman, Times, serif;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 h2 {
     text-align:left;
@@ -29,16 +29,16 @@ header{
 header nav{
     line-height: 200%;
 }
+header ul{
+    margin:0;
+}
 header ul li{
     float: left;
 }
 header ul a {
     color: black;
-    background-color: #5aa8d9;
     font-size: 30px;
-    margin:2;
-    border-radius: 10px; 
-    text-decoration: none;
+    margin:2 px;
 }
 #base_introduction{
      background-color: #f2cb02;

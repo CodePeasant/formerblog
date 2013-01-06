@@ -11,7 +11,7 @@ h1 {
     text-align:left;
     font-size: 70px;
     font-weight: normal;
-    color:#06406C;
+    color:black;
     margin: 0;
     font-family: Georgia, serif;
     line-height: 1;
@@ -28,6 +28,9 @@ h2 {
     margin: 0;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.clear{
+    clear:both;
 }
 /*Header*/
 header{
@@ -51,6 +54,7 @@ header ul a {
     border-radius: 10px;
     text-decoration: none;
 }
+
 /*block setting*/
 
 

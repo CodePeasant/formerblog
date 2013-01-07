@@ -43,10 +43,13 @@ footer p{
 .about_me h1{
     color: #06406C
 }
+.about_me li{
+    text-align: left;
+}
 .about_me span{
     color: white;
     background-color: #06406C;
-    padding: 5px 5px;
+    padding: 5px;
     border-radius: 5px;
     text-decoration: none;
 }

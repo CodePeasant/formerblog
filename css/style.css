@@ -92,21 +92,14 @@ footer p{
 /*pink
  * backgroud:80a67f
  * light-color:7abd9e
- * dark-color:023f40  
- *  * pink:f3b9a3 f7b4a3 e4697d ff978a d9593c
- *      f68972 c73621 c4555c d71949 d80315      
+ * dark-color:023f40         
  */
 .pink{
-    color: #7abd9e;
-    background-color: #80a67f;
+    color: #e4697d ;
+    background-color: #ff978a;
 }
 .pink h1{
-    color: #023f40;
-}
-.pink span{
-    color: white;
-    background-color: #023f40;
-}
+    color: #c4555c;
 
 /*organce
  * backgroud:80a67f
@@ -122,11 +115,6 @@ footer p{
 .organce h1{
     color: #023f40;
 }
-.organce span{
-    color: white;
-    background-color: #023f40;
-}
-
 /*yellow
  * backgroud:80a67f
  * light-color:7abd9e
@@ -141,12 +129,6 @@ footer p{
 .yellow h1{
     color: #023f40;
 }
-.yellow span{
-    color: white;
-    background-color: #023f40;
-}
-
-
 /*
 
 

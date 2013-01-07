@@ -54,15 +54,15 @@ footer p{
  * dark-color:06406C
  */
 .blue{
-    color:#c9e5e8;
+    color:#06406C;
     background-color: #5aa8d9;
 }
 .blue h1{
-    color: #06406C
+    color: #c9e5e8
 }
 .blue span{
     color: white;
-    background-color: #06406C;
+    background-color: #black;
 }
 
 /*cyan

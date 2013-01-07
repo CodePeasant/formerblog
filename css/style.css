@@ -36,10 +36,7 @@ footer p{
     padding:10px;
     text-align:center;
 }
-.scroll_block ul{
-    margin-left:200px;
-    text-align: left;
-}
+
 .scroll_block li{
     line-height: 200%;
 }
@@ -50,8 +47,20 @@ footer p{
     border-radius: 5px;
     text-decoration: none;
 }
-/*block setting*/
 
+.scroll_block span{
+    color: white;
+    background-color: black;
+}
+.align_left{
+    margin-left:200px;
+    text-align: left;
+}
+.margin_100{
+    margin-left:100px;
+}
+
+/*color scheme*/
 /*blue
  * backgroud:5aa8d9
  * light-color:c9e5e8
@@ -64,10 +73,6 @@ footer p{
 .blue h1{
     color: #c9e5e8;
 }
-.blue span{
-    color: white;
-    background-color: black;
-}
 
 /*cyan
  * backgroud:80a67f
@@ -75,16 +80,13 @@ footer p{
  * dark-color:023f40        
  */
 .cyan{
-    color: #7abd9e;
+    color: #023f40;
     background-color: #80a67f;
 }
 .cyan h1{
-    color: #023f40;
+    color: #7abd9e;
 }
-.cyan span{
-    color: white;
-    background-color: #023f40;
-}
+
 
 /*pink
  * backgroud:80a67f

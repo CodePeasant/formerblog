@@ -43,6 +43,9 @@ footer p{
 .about_me h1{
     color: #06406C
 }
+.about_me div{
+    margin:200px;
+}
 .about_me li{
     text-align: left;
 }

@@ -47,36 +47,110 @@ footer p{
     text-decoration: none;
 }
 /*block setting*/
-.about_me{
-    background-color: #5aa8d9;/*blue*/
+
+/*blue
+ * backgroud:5aa8d9
+ * light-color:c9e5e8
+ * dark-color:06406C
+ */
+.blue{
+    color:#c9e5e8;
+    background-color: #5aa8d9;
 }
-.about_me h1{
+.blue h1{
     color: #06406C
 }
-.about_me span{
+.blue span{
     color: white;
     background-color: #06406C;
 }
 
-.life{
-    background-color: #80a67f;/*green*/
+/*cyan
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40        
+ */
+.cyan{
+    color: #7abd9e;
+    background-color: #80a67f;
 }
-.life h1{
-    color: #06406C
+.cyan h1{
+    color: #023f40;
 }
-.life span{
+.cyan span{
     color: white;
-    background-color: #06406C;
+    background-color: #023f40;
 }
 
-.work{
-    background-color: #bf9c5a;/*grey*/
+/*pink
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40  
+ *  * pink:f3b9a3 f7b4a3 e4697d ff978a d9593c
+ *      f68972 c73621 c4555c d71949 d80315      
+ */
+.pink{
+    color: #7abd9e;
+    background-color: #80a67f;
 }
-.work h1{
-    color: #06406C
+.pink h1{
+    color: #023f40;
 }
-.work span{
+.pink span{
     color: white;
-    background-color: #06406C;
+    background-color: #023f40;
 }
 
+/*organce
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40     
+ *  * :f05707 f37126 fb5d1c
+ *         e46039 da5204 f86531   
+ */
+.organce{
+    color: #7abd9e;
+    background-color: #80a67f;
+}
+.organce h1{
+    color: #023f40;
+}
+.organce span{
+    color: white;
+    background-color: #023f40;
+}
+
+/*yellow
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40  
+ * * :fcdc6b f2b705 f2cb02 d6eb74 f2ce16
+ *        d9b604 d97803 cebb3a d68f03      
+ */
+.yellow{
+    color: #7abd9e;
+    background-color: #80a67f;
+}
+.yellow h1{
+    color: #023f40;
+}
+.yellow span{
+    color: white;
+    background-color: #023f40;
+}
+
+
+/*
+
+
+ 
+ * green:b5c058 758c20 81a600
+ *       00c34b 455a0b 4e7301
+ 
+
+ * purple:fa64c7 ca9ec1
+ *        700d3c 544b66 74758a 49325c 674e85
+ * brown:bf9c5a fcdc6b b57037
+ *       401202 8d6f4b 675f54
+ *       
+ */

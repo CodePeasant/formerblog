@@ -95,51 +95,36 @@ footer p{
  * dark-color:023f40         
  */
 .pink{
-    color: #e4697d ;
+    color: #a74a50 ;
     background-color: #ff978a;
 }
 .pink h1{
-    color: #c4555c;
+    color: #f4e9e9;
+}
 
-/*organce
- * backgroud:80a67f
- * light-color:7abd9e
- * dark-color:023f40     
- *  * :f05707 f37126 fb5d1c
- *         e46039 da5204 f86531   
- */
-.organce{
-    color: #7abd9e;
-    background-color: #80a67f;
-}
-.organce h1{
-    color: #023f40;
-}
 /*yellow
  * backgroud:80a67f
  * light-color:7abd9e
- * dark-color:023f40  
- * * :fcdc6b f2b705 f2cb02 d6eb74 f2ce16
- *        d9b604 d97803 cebb3a d68f03      
+ * dark-color:023f40              
  */
 .yellow{
-    color: #7abd9e;
-    background-color: #80a67f;
+    color: #d68f03;
+    background-color: #f2ce16;
 }
 .yellow h1{
-    color: #023f40;
+    color: #f2ce16;
 }
-/*
-
-
- 
- * green:b5c058 758c20 81a600
- *       00c34b 455a0b 4e7301
- 
-
- * purple:fa64c7 ca9ec1
- *        700d3c 544b66 74758a 49325c 674e85
- * brown:bf9c5a fcdc6b b57037
- *       401202 8d6f4b 675f54
- *       
- */
+/*purple
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40              
+ * purple: 
+ *            
+ *  */
+.purple{
+    color: #674e85;
+    background-color: #ca9ec1;
+}
+.purple h1{
+    color: #f0dbec;
+}

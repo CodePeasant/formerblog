@@ -57,11 +57,26 @@ footer p{
     color: white;
     background-color: #06406C;
 }
+
 .life{
     background-color: #80a67f;/*green*/
+}
+.life h1{
+    color: #06406C
+}
+.life span{
+    color: white;
+    background-color: #06406C;
 }
 
 .work{
     background-color: #bf9c5a;/*grey*/
+}
+.work h1{
+    color: #06406C
+}
+.work span{
+    color: white;
+    background-color: #06406C;
 }
 

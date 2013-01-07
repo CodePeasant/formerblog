@@ -13,12 +13,16 @@ ul{
 h1 {
     font-size: 60px;
 }
+h2 {
+    font-size: 40px;
+}
 .clear{
     clear:both;
 }
 header{
     background-color: white;
 }
+
 footer{
     background: black;
     color:white;
@@ -26,18 +30,20 @@ footer{
 footer p{
     margin:0;
 }
+
 .scroll_block{
     margin:0;
     padding:10px;
     text-align:center;
 }
-.scroll_block li{
-    line-height: 200%;
-}
-.scroll_block div{
+.scroll_block ul{
     margin-left:200px;
     text-align: left;
 }
+.scroll_block li{
+    line-height: 200%;
+}
+
 .scroll_block span{
     padding: 5px;
     margin: 5px;

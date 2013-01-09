@@ -31,7 +31,7 @@ footer{
 footer p{
     margin:0;
 }
-
+/*index*/
 .scroll_block{
     margin:0;
     padding:10px;
@@ -60,6 +60,11 @@ footer p{
 .margin_100{
     margin-left:100px;
 }
+.post{
+    margin:0;
+    padding:10px;
+    text-align:left;
+}
 
 /*color scheme*/
 /*blue
@@ -75,49 +80,6 @@ footer p{
     color: #c9e5e8;
 }
 
-/*cyan
- * backgroud:80a67f
- * light-color:7abd9e
- * dark-color:023f40        
- */
-.cyan{
-    color: #023f40;
-    background-color: #80a67f;
-} 
-.cyan h1{
-    color: #e7f6e7;
-}
-
-
-/*pink
- * backgroud:fd9b8f
- * light-color:f4e9e9
- * dark-color:722a2f         
- */
-.pink{
-    color: #722a2f ;
-    background-color: #fd9b8f;
-}
-.pink a{
-    color: #722a2f ;
-    background-color: #fd9b8f;
-}
-.pink h1{
-    color: #f4e9e9;
-}
-
-/*yellow
- * backgroud:e6e285
- * light-color:fefde3
- * dark-color:605d07              
- */
-.yellow{
-    color: #605d07;
-    background-color: #e6e285;
-}
-.yellow h1{
-    color: #fefde3;
-}
 /*purple
  * backgroud:ca9ec1
  * light-color:f0dbec
@@ -131,4 +93,48 @@ footer p{
 }
 .purple h1{
     color: #f0dbec;
+}
+.purple a{
+    color: #674e85;
+}
+/*pink
+ * backgroud:fd9b8f
+ * light-color:f4e9e9
+ * dark-color:722a2f         
+ */
+.pink{
+    color: #722a2f ;
+    background-color: #fd9b8f;
+}
+.pink h1{
+    color: #f4e9e9;
+}
+.pink a{
+    color: #f4e9e9;
+}
+
+/*cyan
+ * backgroud:80a67f
+ * light-color:7abd9e
+ * dark-color:023f40        
+ */
+.cyan{
+    color: #023f40;
+    background-color: #80a67f;
+} 
+.cyan h1{
+    color: #e7f6e7;
+}
+
+/*yellow
+ * backgroud:e6e285
+ * light-color:fefde3
+ * dark-color:605d07              
+ */
+.yellow{
+    color: #605d07;
+    background-color: #e6e285;
+}
+.yellow h1{
+    color: #fefde3;
 }

@@ -103,3 +103,13 @@ footer p{
 .yellow h1{
     color: #fefde3;
 }
+
+/*grey
+ * backgroud:e6e285
+ * light-color:fefde3
+ * dark-color:605d07              
+ */
+.grey{
+    color: black;
+    background-color: #f4f5ef;
+}

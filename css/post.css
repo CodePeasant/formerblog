@@ -13,8 +13,8 @@ h1 {
     text-align:center;
 }
 h2 {
-    vertical-align:middle;
     font-size: 30px;
+    text-align:left;
 }
 
 article{

@@ -10,7 +10,6 @@ ul{
 }
 h1 {
     font-size: 40px;
-    text-align:center;
 }
 h2 {
     vertical-align:middle;
@@ -18,8 +17,8 @@ h2 {
 }
 
 article{
-    margin-left:200px;
-    margin-right:200px;
+    margin-left:100px;
+    margin-right:100px;
     padding:10px;
     text-align:left;
 }

@@ -1,0 +1,34 @@
+/*index*/
+body{
+    font-size: 30px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    vertical-align:middle;
+    font-size: 40px;
+}
+
+div{
+    margin:0;
+    padding:10px;
+    text-align:center;
+}
+
+li{
+    line-height: 200%;
+}
+
+li span{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

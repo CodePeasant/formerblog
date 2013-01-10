@@ -119,5 +119,16 @@ footer p{
  */
 .grey{
     color: black;
-    background-color: #f4f5ef;
+    background-color: #ebe8d9;
 }
+
+/*black
+ * backgroud:e6e285
+ * light-color:fefde3
+ * dark-color:605d07              
+ */
+.black{
+    background-color: #010101;
+    padding:2px;
+}
+

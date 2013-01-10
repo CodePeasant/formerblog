@@ -3,7 +3,52 @@ layout: index
 title: Index
 overview: true
 ---
-<div class="blue">
+<div class="black">
+	<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+		<div class="ws_images">
+			<ul>
+				<li><img src="data1/images/fenghuang.jpg" alt="Fenghuang" title="Fenghuang" id="wows1_0"/>
+				</li>
+				<li><img src="data1/images/friends.jpg" alt="Friends" title="Friends" id="wows1_1"/>
+				</li>
+				<li><img src="data1/images/huangchen.jpg" alt="HuangChen" title="HuangChen" id="wows1_2"/>
+				</li>
+				<li><img src="data1/images/imis.jpg" alt="IMIS" title="IMIS" id="wows1_3"/>
+				</li>
+				<li><img src="data1/images/middleschol.jpg" alt="MiddleSchol" title="MiddleSchol" id="wows1_4"/>
+				</li>
+				<li><img src="data1/images/ontheway.jpg" alt="OnTheWay" title="OnTheWay" id="wows1_5"/>
+				</li>
+				<li><img src="data1/images/sea.jpg" alt="Sea" title="Sea" id="wows1_6"/>
+				</li>
+				<li><img src="data1/images/trage.jpg" alt="trage" title="trage" id="wows1_7"/>
+				</li>
+				<li><img src="data1/images/bycle.jpg" alt="BYCLE" title="BYCLE" id="wows1_8"/>
+				</li>
+			</ul>
+		</div>
+		<div class="ws_thumbs">
+			<div>
+				<a href="#" title="Fenghuang"><img src="data1/tooltips/fenghuang.jpg" alt="" /></a>
+				<a href="#" title="Friends"><img src="data1/tooltips/friends.jpg" alt="" /></a>
+				<a href="#" title="HuangChen"><img src="data1/tooltips/huangchen.jpg" alt="" /></a>
+				<a href="#" title="IMIS"><img src="data1/tooltips/imis.jpg" alt="" /></a>
+				<a href="#" title="MiddleSchol"><img src="data1/tooltips/middleschol.jpg" alt="" /></a>
+				<a href="#" title="OnTheWay"><img src="data1/tooltips/ontheway.jpg" alt="" /></a>
+				<a href="#" title="Sea"><img src="data1/tooltips/sea.jpg" alt="" /></a>
+				<a href="#" title="trage"><img src="data1/tooltips/trage.jpg" alt="" /></a>
+				<a href="#" title="BYCLE"><img src="data1/tooltips/bycle.jpg" alt="" /></a>
+			</div>
+		</div>
+		<a class="wsl" href="http://wowslider.com">jQuery Image Slider Gallery by WOWSlider.com v2.8</a>
+		<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+</div>
+<div class="scroll_block blue">
 	<h1><img src="img/aboutme.png" alt="paladin"/>About Me</h1>
 	<ul class="margin_200">
 		<li>
@@ -27,7 +72,7 @@ overview: true
 	</ul>
 </div>
 
-<div class="purple">
+<div class="scroll_block purple">
 	<h1><img src="img/work.png" alt="cycle"/>Work</h1>
 	<ul class="margin_200">
 		{% for category in site.categories %}
@@ -45,7 +90,7 @@ overview: true
 	</ul>
 </div>
 
-<div class="pink">
+<div class="scroll_block pink">
 	<h1><img src="img/life.png" alt="cycle"/>Life</h1>
 	<ul class="margin_200">
 		{% for post in site.posts %}
@@ -59,10 +104,10 @@ overview: true
 	</ul>
 </div>
 
-<div class="cyan">
+<div class="scroll_block cyan">
 	<h1><img src="img/picture.png" alt="pictures"/>Pictures</h1>
 </div>
 
-<div class="yellow">
+<div class="scroll_block yellow">
 	<h1><img src="img/comment.png" alt="comments"/>Comment</h1>
 </div>

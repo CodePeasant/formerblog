@@ -6,9 +6,29 @@
 	</head>
 	<body>
 		{% include header.html %}
+		<nav>
+			<span class="nav_span">
+			Previous:
+			{% if page.previous %}
+			<a href="{{page.previous.url}}">{{page.previous.title| truncatewords:5}}</a> 
+			{%else%}
+			Previous:None
+			{% endif %}
+			</span>
+		</nav>
 		<article class="post grey">
 			{{ content }}
 		</article>
+		<nav>
+		<span class="nav_span">
+			Next:
+			{% if page.next %}
+			<a href="{{page.next.url}}">{{page.next.title| truncatewords:5}}</a>
+			{%else%}
+			None
+			{% endif %}
+		</span>
+		</nav>
 		{% include footer.html %}
 	</body>
 </html>

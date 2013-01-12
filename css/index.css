@@ -13,10 +13,15 @@ h2 {
     vertical-align:middle;
     font-size: 40px;
 }
+
 #wowslider-container1{
-    box-shadow: 0 0 10px black;
+    
 }
 
+.focus_block{
+    padding:1px;
+    margin:0;
+}
 .scroll_block{
     margin:0;
     padding:10px;

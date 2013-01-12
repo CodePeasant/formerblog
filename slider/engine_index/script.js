@@ -18,4 +18,4 @@ function ws_stack(d,a,b){var e=jQuery;var c=e("li",b);this.go=function(k,h,n,m){
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-container1").wowSlider({effect:"stack",prev:"",next:"",duration:20*100,delay:20*100,width:960,height:400,autoPlay:true,stopOnHover:true,loop:false,bullets:0,caption:true,captionEffect:"move",controls:true,logo:"engine1/loading.gif",onBeforeStep:0,images:0});
+jQuery("#wowslider-container1").wowSlider({effect:"stack",prev:"",next:"",duration:20*100,delay:20*100,width:960,height:400,autoPlay:true,stopOnHover:true,loop:false,bullets:1,caption:true,captionEffect:"move",controls:true,logo:"engine1/loading.gif",onBeforeStep:0,images:[{src:"./trage.jpg",title:"On the way",descr:"repaire my warrior"},{src:"./fenghuang.jpg",title:"Traval",descr:"Fenghuang"},{src:"./friends.jpg",title:"Friends"},{src:"./imis0901.jpg",title:"IMIS0901"},{src:"./snapshot.jpg",title:"SR's Picture"}]});

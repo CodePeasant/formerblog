@@ -3,51 +3,42 @@ layout: index
 title: Index
 overview: true
 ---
-<div class="black">
+<!--
+ *@name:Focus
+ *@note:show the most important things by picture 
+ *
+ -->
+<div class="focus_block black">
 	<!-- Start WOWSlider.com BODY section -->
 	<div id="wowslider-container1">
 		<div class="ws_images">
 			<ul>
-				<li><img src="data1/images/fenghuang.jpg" alt="Fenghuang" title="Fenghuang" id="wows1_0"/>
-				</li>
-				<li><img src="data1/images/friends.jpg" alt="Friends" title="Friends" id="wows1_1"/>
-				</li>
-				<li><img src="data1/images/huangchen.jpg" alt="HuangChen" title="HuangChen" id="wows1_2"/>
-				</li>
-				<li><img src="data1/images/imis.jpg" alt="IMIS" title="IMIS" id="wows1_3"/>
-				</li>
-				<li><img src="data1/images/middleschol.jpg" alt="MiddleSchol" title="MiddleSchol" id="wows1_4"/>
-				</li>
-				<li><img src="data1/images/ontheway.jpg" alt="OnTheWay" title="OnTheWay" id="wows1_5"/>
-				</li>
-				<li><img src="data1/images/sea.jpg" alt="Sea" title="Sea" id="wows1_6"/>
-				</li>
-				<li><img src="data1/images/trage.jpg" alt="trage" title="trage" id="wows1_7"/>
-				</li>
-				<li><img src="data1/images/bycle.jpg" alt="BYCLE" title="BYCLE" id="wows1_8"/>
+				<li><img src="slider/data_index/images/trage.jpg" alt="On the way" title="On the way" id="wows1_0"/>repaire my warrior
 				</li>
 			</ul>
 		</div>
-		<div class="ws_thumbs">
+		<div class="ws_bullets">
 			<div>
-				<a href="#" title="Fenghuang"><img src="data1/tooltips/fenghuang.jpg" alt="" /></a>
-				<a href="#" title="Friends"><img src="data1/tooltips/friends.jpg" alt="" /></a>
-				<a href="#" title="HuangChen"><img src="data1/tooltips/huangchen.jpg" alt="" /></a>
-				<a href="#" title="IMIS"><img src="data1/tooltips/imis.jpg" alt="" /></a>
-				<a href="#" title="MiddleSchol"><img src="data1/tooltips/middleschol.jpg" alt="" /></a>
-				<a href="#" title="OnTheWay"><img src="data1/tooltips/ontheway.jpg" alt="" /></a>
-				<a href="#" title="Sea"><img src="data1/tooltips/sea.jpg" alt="" /></a>
-				<a href="#" title="trage"><img src="data1/tooltips/trage.jpg" alt="" /></a>
-				<a href="#" title="BYCLE"><img src="data1/tooltips/bycle.jpg" alt="" /></a>
+				<a href="slider/data_index/images/trage.jpg" title="On the way"><img src="slider/data_index/tooltips/trage.jpg" alt="On the way"/>1</a>
+				<a href="slider/data_index/images/fenghuang.jpg" title="Traval">2</a>
+				<a href="slider/data_index/images/friends.jpg" title="Friends">3</a>
+				<a href="slider/data_index/images/imis0901.jpg" title="IMIS0901">4</a>
+				<a href="slider/data_index/images/snapshot.jpg" title="SR's Picture">5</a>
 			</div>
 		</div>
 		<a class="wsl" href="http://wowslider.com">jQuery Image Slider Gallery by WOWSlider.com v2.8</a>
 		<div class="ws_shadow"></div>
 	</div>
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+	<script type="text/javascript" src="slider/engine_index/wowslider.js"></script>
+	<script type="text/javascript" src="slider/engine_index/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->	
 </div>
+
+<!--
+ *@name:About Me
+ *@note:show the myself
+ *
+ -->
 <div class="scroll_block blue">
 	<h1><img src="img/aboutme.png" alt="paladin"/>About Me</h1>
 	<ul class="margin_200">
@@ -72,36 +63,33 @@ overview: true
 	</ul>
 </div>
 
+<!--
+ *@name:Post
+ *@note:the posts have been released
+ *
+ -->
 <div class="scroll_block purple">
-	<h1><img src="img/work.png" alt="cycle"/>Work</h1>
+	<h1><img src="img/post.png" alt="cycle"/>Posts</h1>
 	<ul class="margin_200">
 		{% for category in site.categories %}
-			{% if category.first != 'life' %}
-				<h2>{{category.first}}</h2>
-					{% for post in category.last %}
-						<li>
-							<span>{{post.date | date: "%Y-%m-%d"}}</span>
-							<a href="{{post.url}}">{{post.title}}</a>
-						</li>
-					{% endfor %}
-			{% endif %}
-			
+			<h2>{{category.first}}</h2>
+			{% for post in category.last %}
+				<li>
+					<span>{{post.date | date: "%Y-%m-%d"}}</span>
+					<a href="{{post.url}}">{{post.title}}</a>
+				</li>
+			{% endfor %}
 		{% endfor %}
 	</ul>
 </div>
 
+<!--
+ *@name:Download
+ *@note:the resource for download
+ *
+ -->
 <div class="scroll_block pink">
-	<h1><img src="img/life.png" alt="cycle"/>Life</h1>
-	<ul class="margin_200">
-		{% for post in site.posts %}
-			{% if post.category == 'life' %}
-			<li>
-				<span>{{post.date | date: "%Y-%m-%d"}}</span>
-				<a href="{{post.url}}">{{post.title}}</a>
-			</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
+	<h1><img src="img/download.png" alt="cycle"/>Download</h1>
 </div>
 
 <div class="scroll_block cyan">

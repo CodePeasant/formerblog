@@ -10,13 +10,9 @@ body {
 header{
     background-color: white;
 }
+
 footer{
-    font-size:30px;
-    background: black;
-    color:white;
-}
-footer p{
-    margin:0;
+    text-align: center;
 }
 
 .clear{
@@ -36,6 +32,13 @@ footer p{
     right: 0;
     top:0;
     border:0;
+}
+.comment_block{
+    width:800px;
+    margin:0 auto;
+}
+.footer_block{
+    font-size:30px;
 }
 /*color scheme*/
 
@@ -113,21 +116,22 @@ footer p{
 }
 
 /*grey
- * backgroud:e6e285
- * light-color:fefde3
- * dark-color:605d07              
+ * backgroud:ebe8d9
+ * light-color:black
+ * dark-color:             
  */
 .grey{
     color: black;
-    background-color: #ebe8d9;
+    background-color: #F4F5EF;
 }
 
 /*black
- * backgroud:e6e285
- * light-color:fefde3
- * dark-color:605d07              
+ * backgroud:010101
+ * light-color:
+ * dark-color:             
  */
 .black{
+    color:white;
     background-color: #010101;
 }
 

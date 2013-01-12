@@ -2,7 +2,7 @@
 <html>
 	<head>
 		{% include head.html %}
-		<link rel="stylesheet" href="/css/post.css" />
+		<link rel="stylesheet" href="{{ site.url }}/css/post.css" />
 	</head>
 	<body>
 		{% include header.html %}
@@ -10,7 +10,7 @@
 			<span class="nav_span">
 			Previous:
 			{% if page.previous %}
-			<a href="{{page.previous.url}}">{{page.previous.title| truncatewords:5}}</a> 
+			<a href="{{page.previous.url}}">{{page.previous.title}}</a> 
 			{%else%}
 			Previous:None
 			{% endif %}
@@ -23,7 +23,7 @@
 		<span class="nav_span">
 			Next:
 			{% if page.next %}
-			<a href="{{page.next.url}}">{{page.next.title| truncatewords:5}}</a>
+			<a href="{{page.next.url}}">{{page.next.title}}</a>
 			{%else%}
 			None
 			{% endif %}

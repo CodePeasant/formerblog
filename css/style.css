@@ -15,17 +15,13 @@ footer{
     text-align: center;
 }
 
+.float_left{
+    float: left;
+}
 .clear{
     clear:both;
 }
-.margin_200{
-    margin-left:200px;
-    text-align: left;
-}
-.margin_100{
-    margin-left:100px;
-    text-align: left;
-}
+
 
 .forkme{
     position: absolute;
@@ -34,7 +30,7 @@ footer{
     border:0;
 }
 .comment_block{
-    width:800px;
+    max-width:800px;
     margin:0 auto;
 }
 .footer_block{
@@ -95,7 +91,7 @@ footer{
  * dark-color:023f40        
  */
 .cyan{
-    color: #023f40;
+    color: #e7f6e7;
     background-color: #80a67f;
 } 
 .cyan h1{

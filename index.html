@@ -3,95 +3,12 @@ layout: index
 title: Index
 overview: true
 ---
-<!--
- *@name:Focus
- *@note:show the most important things by picture 
- *
- -->
-<div class="focus_block black">
-	<!-- Start WOWSlider.com BODY section -->
-	<div id="wowslider-container1">
-		<div class="ws_images">
-			<ul>
-				<li><img src="{{ site.url }}/slider/data_index/images/trage.jpg" alt="On the way" title="On the way" id="wows1_0"/>repaire my warrior
-				</li>
-			</ul>
-		</div>
-		<div class="ws_bullets">
-			<div>
-				<a href="{{ site.url }}/slider/data_index/images/trage.jpg" title="On the way"><img src="{{ site.url }}/slider/data_index/tooltips/trage.jpg" alt="On the way"/>1</a>
-				<a href="{{ site.url }}/slider/data_index/images/fenghuang.jpg" title="Traval">2</a>
-				<a href="{{ site.url }}/slider/data_index/images/friends.jpg" title="Friends">3</a>
-				<a href="{{ site.url }}/slider/data_index/images/imis0901.jpg" title="IMIS0901">4</a>
-				<a href="{{ site.url }}/slider/data_index/images/snapshot.jpg" title="SR's Picture">5</a>
-			</div>
-		</div>
-		<a class="wsl" href="http://wowslider.com">jQuery Image Slider Gallery by WOWSlider.com v2.8</a>
-		<div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="{{ site.url }}/slider/engine_index/wowslider.js"></script>
-	<script type="text/javascript" src="{{ site.url }}/slider/engine_index/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->	
-</div>
+{% include focus.html %}
+{% include aboutme.html %}
+{% include post.html %}
+{% include download.html %}
+{% include picture.html %}
+{% include comment.html %}
 
-<!--
- *@name:About Me
- *@note:show the myself
- *
- -->
-<div class="scroll_block blue">
-	<h1><img src="{{ site.url }}/img/aboutme.png" alt="paladin"/>About Me</h1>
-	<ul class="margin_200">
-		<li>
-			<span>Position:</span>Soft Development Engineer
-		</li>
-		<li>
-			<span>Company:</span>Aqiyi,Peking,since 2013.2
-		</li>
-		<li>
-			<span>Focus:</span>Python/NoSQL/Linux/C++/KnowledgeDiscovery
-		</li>
-		<li>
-			<span>University:</span>HUST.Wuhan.Hubei(2009.9-2013.6)
-		</li>
-		<li>
-			<span>Hometown:</span>Punning.Guangdong
-		</li>
-		<li>
-			<span>E-mail:</span>1032197148@qq.com
-		</li>
-	</ul>
-</div>
 
-<!--
- *@name:Post
- *@note:the posts have been released
- *
- -->
-<div class="scroll_block purple">
-	<h1><img src="{{ site.url }}/img/post.png" alt="cycle"/>Posts</h1>
-	<ul class="margin_200">
-		{% for category in site.categories %}
-			<h2>{{category.first}}</h2>
-			{% for post in category.last %}
-				<li>
-					<span>{{post.date | date: "%Y-%m-%d"}}</span>
-					<a href="{{post.url}}">{{post.title}}</a>
-				</li>
-			{% endfor %}
-		{% endfor %}
-	</ul>
-</div>
 
-<!--
- *@name:Download
- *@note:the resource for download
- *
- -->
-<div class="scroll_block pink">
-	<h1><img src="{{ site.url }}/img/download.png" alt="cycle"/>Download</h1>
-</div>
-
-<div class="scroll_block cyan">
-	<h1><img src="{{ site.url }}/img/picture.png" alt="pictures"/>Pictures</h1>
-</div>

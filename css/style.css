@@ -36,6 +36,15 @@ footer{
     text-align: left;
 }
 
+#sidebar a {
+    color: white;
+    text-decoration: none;
+}
+#sidebar a:hover{
+    color:#888888;
+    text-decoration: underline;
+}
+
 #catalogue_img{
     margin-right:15px;
 }
@@ -44,7 +53,6 @@ footer{
     color: white;
     font-size:30px;
     display:none;
-    cursor: default;
 }
 #catalogue{
     margin:0;
@@ -61,15 +69,6 @@ footer{
 
 #catalogue li{
     padding: 2px;
-}
-
-#catalogue a {
-    color: white;
-    text-decoration: none;
-}
-#catalogue a:hover{
-    color:#888888;
-    text-decoration: underline;
 }
 
 #forkme{

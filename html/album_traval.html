@@ -5,7 +5,7 @@ title: Album Friends
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		{% include head.html %}
 		<link rel="stylesheet" href="{{ site.url }}/css/album.css" />
 		<!-- Start WOWSlider.com HEAD section -->
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/slider/engine_traval/style.css" />
@@ -13,6 +13,7 @@ title: Album Friends
 		<!-- End WOWSlider.com HEAD section -->
 	</head>
 	<body>
+		{% include nav.html %}
 		<!-- Start WOWSlider.com BODY section -->
 		<div id="wowslider-container1">
 			<div class="ws_images">

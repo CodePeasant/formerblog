@@ -6,6 +6,11 @@ title: Album Friends
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chelsea+Market" type="text/css"/>
+		<link rel="stylesheet" href="{{ site.url }}/css/normalize.css" />
+		<link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+		<script type="text/javascript" src="{{ site.url }}/js/script.js"></script>
+		<link rel="icon" type="image/x-icon" href="{{ site.url }}/img/icon.png" />
 		<link rel="stylesheet" href="{{ site.url }}/css/album.css" />
 		<!-- Start WOWSlider.com HEAD section -->
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/slider/engine_friends/style.css" />
@@ -13,6 +18,31 @@ title: Album Friends
 		<!-- End WOWSlider.com HEAD section -->
 	</head>
 	<body>
+		<nav id="sidebar" onMouseover="showSideBar()" onMouseout="hideSideBar()">
+			<div id="catalogue_img">
+				<img src="{{ site.url }}/img/homepage.png" /><span id="catalogue_title">Index</span>
+			</div>
+			<ul id="catalogue">
+				<li>
+					<a href="{{ site.url }}/index.html#focus">Focus</a>
+				</li>
+				<li>
+					<a href="{{ site.url }}/index.html#aboutme">Aboutme</a>
+				</li>
+				<li>
+					<a href="{{ site.url }}/index.html#post">Post</a>
+				</li>
+				<li>
+					<a href="{{ site.url }}/index.html#download">Download</a>
+				</li>
+				<li>
+					<a href="{{ site.url }}/index.html#picture">Picture</a>
+				</li>
+				<li>
+					<a href="{{ site.url }}/index.html#comment">Comment</a>
+				</li>
+			</ul>
+		</nav>
 		<!-- Start WOWSlider.com BODY section -->
 		<div id="wowslider-container1">
 			<div class="ws_images">

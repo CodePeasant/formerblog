@@ -1,5 +1,6 @@
-/*Base*/
-
+/**
+ * Normal    
+ */
 html {
     color:black;
     font-size: 100%;
@@ -18,12 +19,60 @@ footer{
 .float_left{
     float: left;
 }
+
 .clear{
     clear:both;
 }
+/*
+ * SideBar
+ */
 
+#sidebar{
+    position: fixed;
+    right: 0;
+    top: 150px;
+    z-index: 999;
+    overflow: auto;
+    text-align: left;
+}
 
-.forkme{
+#catalogue_img{
+    margin-right:15px;
+}
+
+#catalogue_title{
+    color: white;
+    font-size:30px;
+    display:none;
+    cursor: default;
+}
+#catalogue{
+    margin:0;
+    padding:15px;
+    font-size:20px;
+    text-align:left;
+    max-width: 200px;
+    background: transparent;
+    border:2px solid white;
+    border-right:0;
+    display:none;
+   
+}
+
+#catalogue li{
+    padding: 2px;
+}
+
+#catalogue a {
+    color: white;
+    text-decoration: none;
+}
+#catalogue a:hover{
+    color:#888888;
+    text-decoration: underline;
+}
+
+#forkme{
     position: absolute;
     right: 0;
     top:0;

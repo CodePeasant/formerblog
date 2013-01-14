@@ -1,4 +1,29 @@
 <header>
 	<a href="{{ site.url }}/"><img src="/img/logo.png"/></a>
-	<a href="http://github.com/CodePeasent" class="forkme"><img src="/img/forkme.png" alt="fork me on github" /></a>
+	<a href="http://github.com/CodePeasent" id="forkme"><img src="/img/forkme.png" alt="fork me on github" /></a>
+	<nav id="sidebar" onMouseover="showSideBar()" onMouseout="hideSideBar()">
+		<div id="catalogue_img">
+			<img src="{{ site.url }}/img/homepage.png" /><span id="catalogue_title">Index</span>
+		</div>
+		<ul id="catalogue">
+			<li>
+				<a href="{{ site.url }}/index.html#focus">Focus</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/index.html#aboutme">Aboutme</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/index.html#post">Post</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/index.html#download">Download</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/index.html#picture">Picture</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/index.html#comment">Comment</a>
+			</li>
+		</ul>
+	</nav>
 </header>

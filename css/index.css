@@ -54,6 +54,7 @@ h2 {
 }
 
 #album img{
+    box-shadow:0 0 2px #010101;
     border: 2px solid white;
     
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Practical Python for Django
-category: python
+category: Python
 ---
 #Practical Python for Django
 Welcome to Django, and in this case, perhaps Python as well! Before jumping straight

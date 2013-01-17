@@ -12,10 +12,13 @@ h1 {
     font-size: 70px;
 }
 h2 {
-    vertical-align:middle;
     font-size: 40px;
+    text-align:left;
 }
-
+h3 {
+    font-size: 30px;
+    text-align:left;
+}
 .center_block{
     width:800px;
     padding:20px 0;
@@ -42,6 +45,13 @@ h2 {
     padding:1px;
     margin:0;
 }
+
+/**
+ *for download.html     
+ */
+#download li{
+    line-height:120%;
+}
 /**
  * for picture.html
  */
@@ -55,6 +65,5 @@ h2 {
 
 #album img{
     box-shadow:0 0 2px #010101;
-    border: 2px solid white;
-    
+    border: 2px solid white;   
 }

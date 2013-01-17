@@ -1,48 +1,59 @@
-/*index*/
+/**
+ *Normal setting
+ * f4f5ef
+ */
 body{
     color:black;
-    background:#f4f5ef;
+    background:#f0f0f0;
     font-size: 20px;
     text-align:center;
 }
-ul{
-    list-style-type: none;
-}
+/**
+ *Article setting     
+ */
+
 h1 {
     font-size: 40px;
     text-align:center;
 }
 h2 {
     font-size: 30px;
+    color:#999;
     text-align:left;
 }
-
+h3 {
+    font-size: 20px;
+    color:#999;
+    text-align:left;
+}
 article{
-    margin-left:200px;
-    margin-right:200px;
+    margin:0 auto;
+    max-width:900px;
     padding:10px;
     text-align:left;
 }
 
+ul{
+    list-style-type: none;
+}
 li{
     line-height: 200%;
 }
-
-nav{
+/**
+ *Navigation
+ */
+.nav_link{
     margin:20px;
 }
-.nav_span{
-    text-align:center;
+.nav_link span{  
     font-size: 20px;
+    text-align:center;
     color:white;
     background: #5BB75B;
     padding: 10px 20px;
-    
-    font-size: 20px;
     border-radius: 10px;
 }
-
-.nav_span a{
+.nav_link a{
     color:white;
     background: #5BB75B;
 }
